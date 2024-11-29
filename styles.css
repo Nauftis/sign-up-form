@@ -60,6 +60,17 @@ label {
     display: block;
 }
 
+input{
+    height: 1.7rem;
+    margin-bottom: 15px;
+    border: 1px #E5E7EB solid;
+    border-radius: 5px;
+}
+
+input:invalid {
+    border-color: red;
+  }
+
 .header {
     color: white;
     background-color: #0006;
@@ -105,12 +116,10 @@ label {
 }
 
 .part-3 {
-    padding-top: 1.5rem;
-    padding-left: 2rem;
-    padding-bottom: 1.5rem;
+    font-size: 16px;
 }
 
-form {
+.form {
     font-size: 0.7rem;
     display: flex;
     flex-direction: column;
@@ -123,15 +132,20 @@ form {
     box-shadow: 10px;
 }
 
+
 .form-row {
     display: flex;
     gap: 2.5rem;
 }
 
 button {
+    margin-top: 1rem;
     margin-left: 2rem;
     margin-bottom: 1rem;
-    ;
+    background-color: #596D48;
+    color: white;
+    border: 1px #596D48 solid;
+    border-radius: 5px;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 25px;
